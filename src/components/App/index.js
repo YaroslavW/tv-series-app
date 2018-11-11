@@ -12,7 +12,7 @@ class App extends Component {
     const series = ['Vikings','Game of Trones']
     setTimeout(() =>{
       this.setState({
-        series: series
+        series
       })
     }, 2000)
   }
