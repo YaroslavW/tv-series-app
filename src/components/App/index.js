@@ -7,6 +7,15 @@ class App extends Component {
   state ={
     series: []
   }
+
+  componentDidMount(){
+    const series = ['Vikings','Game of Trones']
+    setTimeout(() =>{
+      this.setState({
+        series: series
+      })
+    }, 2000)
+  }
   render() {
     return (
       <div className="App">
